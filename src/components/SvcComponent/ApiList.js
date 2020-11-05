@@ -23,7 +23,7 @@ class ApiList extends Component {
         headers.append('Origin','http://localhost:3000');
 
         // fetch("http://localhost:5050/apis",{
-        fetch("http://localhost:http://authmgmt-env.eba-m26pz7xm.us-east-2.elasticbeanstalk.com/apis/apis",{
+        fetch("http://authmgmt-env.eba-m26pz7xm.us-east-2.elasticbeanstalk.com/apis/apis",{
         method: 'GET',
         headers: headers
     }).then(res => res.json())
